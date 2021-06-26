@@ -1,0 +1,105 @@
+.apart__lists {
+    margin: 0px 20px 60px 50px;
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: black; 
+    }
+    &_item {
+        border: 1px solid #D8D8D8;
+        width: 379px;
+        height: 381px;
+        margin: 0 22px 38px 0;
+        background: #F8F8F8;
+        .apart__lists_card{
+            height: 233px;
+            width: 100%;
+           &_img{          
+                position: relative;
+                height: 100%;
+                width: 100%;
+                margin-bottom: 15px;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                &mini {
+                    position: absolute;
+                    width: 134px;
+                    height: 30px;
+                    background: #006F79;
+                    top: 87%;
+                    right: 0%;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    p{
+                       margin: 8px;
+                    }
+                }
+                &mini2 {
+                    position: absolute;
+                    width: 204px;
+                    height: 30px;
+                    background: #EC6608;
+                    top: 87%;
+                    right: 0%;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    p{
+                        margin: 8px;
+                     }
+                }
+               
+            }
+            &_title {                
+                font-size: 20px;
+                margin: 0px 0px 2px 20px;
+                font-weight: 700;
+                line-height: 27px;
+                letter-spacing: 0px;
+            }
+            &_address {
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0px;
+                margin: 0px 0px 15px 20px;
+            }
+            &_price {
+                line-height: 22px;
+                margin: 0px 0px 7px 20px;
+                span{
+                    font-weight: 700;
+                }
+            }
+            &_p {
+                font-size: 14px;
+                line-height: 19px;
+                margin: 0px 0px 0px 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 460px) {
+.apart__lists {
+    margin: 0px 0px 60px 20px;
+    &_item {
+        width: 90%;
+        }
+    }
+}
+@media screen and (max-width: 420px) {
+    .apart__lists {
+        margin: 0px 0px 0px 20px;
+        &_item {
+            height: 410px;
+            width: 90%;
+        }
+    }
+}

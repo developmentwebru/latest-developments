@@ -1,0 +1,97 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    .apart__title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #45852D;
+        margin-bottom: 43px;
+        margin-right: 20px;
+    }
+    .apart__filters {
+        margin-bottom: 45px;
+        &_label {
+            padding: 12px 0px;
+            font-weight: 700;
+            margin-left: 51px;
+            margin-right: 20px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.3px;
+            text-align: left;
+        }
+        &_input {
+            outline:none;
+            padding-left: 10px;
+            font-size: 16px;
+            height: 50px;
+            width: 418px;
+            border: 1px solid #D8D8D8;
+            border-radius: 25px;
+            box-sizing: border-box;
+        }
+    }
+    .apart__button {
+        margin-bottom: 40px;
+        button {
+            background-color: #fff;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #D8D8D8;
+            height: 50px;
+            width: 150px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: -0.3px;
+            &::after{
+                content: url(../../assets/Chevron.svg);
+                float: right;
+                 margin: 3px 24px 0 -14px;
+            }
+            &:hover{
+                background-color:darken($color: #fff, $amount: 5%)
+            }
+            &:active{
+                background-color:darken($color: #fff, $amount: 10%)
+            }
+        }
+    }
+}
+@media screen and (max-width: 530px) {
+    .container{
+        .apart__filters {
+            &_label {               
+                margin-left: 20px;               
+            }
+            &_input{
+                width: 379px;
+                margin: 20px 20px 0px 20px; 
+            }
+        }
+    }
+}
+@media screen and (max-width: 460px) {
+    .container{
+        .apart__title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .apart__filters {
+            &_label {               
+                margin-left: 20px;               
+            }
+            &_input{
+                width: 86%;
+                margin: 20px 20px 0px 20px; 
+            }
+        }
+    }
+}
