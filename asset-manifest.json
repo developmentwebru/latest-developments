@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/developmentwebru/latest-developments/static/css/main.b6e189b0.chunk.css",
+    "main.js": "/developmentwebru/latest-developments/static/js/main.233393dc.chunk.js",
+    "main.js.map": "/developmentwebru/latest-developments/static/js/main.233393dc.chunk.js.map",
+    "runtime-main.js": "/developmentwebru/latest-developments/static/js/runtime-main.2f1131a9.js",
+    "runtime-main.js.map": "/developmentwebru/latest-developments/static/js/runtime-main.2f1131a9.js.map",
+    "static/js/2.1f8a8c83.chunk.js": "/developmentwebru/latest-developments/static/js/2.1f8a8c83.chunk.js",
+    "static/js/2.1f8a8c83.chunk.js.map": "/developmentwebru/latest-developments/static/js/2.1f8a8c83.chunk.js.map",
+    "index.html": "/developmentwebru/latest-developments/index.html",
+    "static/css/main.b6e189b0.chunk.css.map": "/developmentwebru/latest-developments/static/css/main.b6e189b0.chunk.css.map",
+    "static/js/2.1f8a8c83.chunk.js.LICENSE.txt": "/developmentwebru/latest-developments/static/js/2.1f8a8c83.chunk.js.LICENSE.txt",
+    "static/media/Apartments.scss": "/developmentwebru/latest-developments/static/media/Chevron.97a27ab1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f1131a9.js",
+    "static/js/2.1f8a8c83.chunk.js",
+    "static/css/main.b6e189b0.chunk.css",
+    "static/js/main.233393dc.chunk.js"
+  ]
+}
